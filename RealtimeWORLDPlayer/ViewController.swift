@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var spriteView:SKView?
     var spriteScene:SKScene?
     let AudioFormat = AVAudioFormat(standardFormatWithSampleRate: 16000, channels: AVAudioChannelCount(2))
-    //音声ファイル等ファイルアクセス先
+    
     let wavPath = NSSearchPathForDirectoriesInDomains(.documentDirectory,.userDomainMask,true)[0] as String
     
     override func viewDidLoad() {
@@ -34,10 +34,9 @@ class ViewController: UIViewController {
     }
     //画面上の初期化
     func initializeView(){
-        spriteView = SKView(frame:CGRect(x: 0, y: 0, width: Int(self.view.frame.width), height: Int(self.view.frame.height)))
+        spriteView = SKView(frame:CGRect(x: 0.0, y: 0.0, width: self.view.frame.width, height: self.view.frame.height))
         self.spriteScene = SKScene(size:CGSize(width:(spriteView?.frame.width)!,height:(spriteView?.frame.height)!))
         spriteView!.presentScene(spriteScene)
-        
         
         self.view.addSubview(spriteView!)
     }
