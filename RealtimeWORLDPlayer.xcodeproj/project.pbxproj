@@ -12,57 +12,59 @@
 		3ACDC0DE1EED0F5F008C9F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDC0DC1EED0F5F008C9F33 /* Main.storyboard */; };
 		3ACDC0E01EED0F5F008C9F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDC0DF1EED0F5F008C9F33 /* Assets.xcassets */; };
 		3ACDC0E31EED0F5F008C9F33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDC0E11EED0F5F008C9F33 /* LaunchScreen.storyboard */; };
-		3ACDC0F91EED0F89008C9F33 /* audioio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0EC1EED0F89008C9F33 /* audioio.cpp */; };
-		3ACDC0FA1EED0F89008C9F33 /* cheaptrick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0ED1EED0F89008C9F33 /* cheaptrick.cpp */; };
-		3ACDC0FB1EED0F89008C9F33 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0EE1EED0F89008C9F33 /* common.cpp */; };
-		3ACDC0FC1EED0F89008C9F33 /* ctest_c.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0EF1EED0F89008C9F33 /* ctest_c.c */; };
-		3ACDC0FD1EED0F89008C9F33 /* d4c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0F01EED0F89008C9F33 /* d4c.cpp */; };
-		3ACDC0FE1EED0F89008C9F33 /* dio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0F11EED0F89008C9F33 /* dio.cpp */; };
-		3ACDC0FF1EED0F89008C9F33 /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0F21EED0F89008C9F33 /* fft.cpp */; };
-		3ACDC1001EED0F89008C9F33 /* header in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDC0F31EED0F89008C9F33 /* header */; };
-		3ACDC1011EED0F89008C9F33 /* matlabfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0F41EED0F89008C9F33 /* matlabfunctions.cpp */; };
-		3ACDC1021EED0F89008C9F33 /* stonemask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0F51EED0F89008C9F33 /* stonemask.cpp */; };
-		3ACDC1031EED0F89008C9F33 /* synthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0F61EED0F89008C9F33 /* synthesis.cpp */; };
-		3ACDC1041EED0F89008C9F33 /* synthesisrealtime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0F71EED0F89008C9F33 /* synthesisrealtime.cpp */; };
-		3ACDC1051EED0F89008C9F33 /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC0F81EED0F89008C9F33 /* world.cpp */; };
-		3ACDC1071EED0FAF008C9F33 /* waves in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDC1061EED0FAF008C9F33 /* waves */; };
 		3ACDC10E1EED0FDF008C9F33 /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC1081EED0FDF008C9F33 /* AnimationManager.swift */; };
 		3ACDC10F1EED0FDF008C9F33 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC1091EED0FDF008C9F33 /* AudioPlayerManager.swift */; };
 		3ACDC1101EED0FDF008C9F33 /* WORLDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC10A1EED0FDF008C9F33 /* WORLDManager.swift */; };
 		3ACDC1111EED0FDF008C9F33 /* ConstantMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC10B1EED0FDF008C9F33 /* ConstantMember.swift */; };
 		3ACDC1121EED0FDF008C9F33 /* BufferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC10C1EED0FDF008C9F33 /* BufferManager.swift */; };
 		3ACDC1131EED0FDF008C9F33 /* RealtimePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDC10D1EED0FDF008C9F33 /* RealtimePlayer.swift */; };
+		3AFE16E51EED16B7003FF4F6 /* audioio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16D81EED16B7003FF4F6 /* audioio.cpp */; };
+		3AFE16E61EED16B7003FF4F6 /* cheaptrick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16D91EED16B7003FF4F6 /* cheaptrick.cpp */; };
+		3AFE16E71EED16B7003FF4F6 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16DA1EED16B7003FF4F6 /* common.cpp */; };
+		3AFE16E81EED16B7003FF4F6 /* ctest_c.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16DB1EED16B7003FF4F6 /* ctest_c.c */; };
+		3AFE16E91EED16B7003FF4F6 /* d4c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16DC1EED16B7003FF4F6 /* d4c.cpp */; };
+		3AFE16EA1EED16B7003FF4F6 /* dio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16DD1EED16B7003FF4F6 /* dio.cpp */; };
+		3AFE16EB1EED16B7003FF4F6 /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16DE1EED16B7003FF4F6 /* fft.cpp */; };
+		3AFE16EC1EED16B7003FF4F6 /* header in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE16DF1EED16B7003FF4F6 /* header */; };
+		3AFE16ED1EED16B7003FF4F6 /* matlabfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16E01EED16B7003FF4F6 /* matlabfunctions.cpp */; };
+		3AFE16EE1EED16B7003FF4F6 /* stonemask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16E11EED16B7003FF4F6 /* stonemask.cpp */; };
+		3AFE16EF1EED16B7003FF4F6 /* synthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16E21EED16B7003FF4F6 /* synthesis.cpp */; };
+		3AFE16F01EED16B7003FF4F6 /* synthesisrealtime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16E31EED16B7003FF4F6 /* synthesisrealtime.cpp */; };
+		3AFE16F11EED16B7003FF4F6 /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE16E41EED16B7003FF4F6 /* world.cpp */; };
+		3AFE16F31EED16CE003FF4F6 /* waves in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE16F21EED16CE003FF4F6 /* waves */; };
+		3AFE16F71EED1752003FF4F6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFE16F61EED1752003FF4F6 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3ACDC0D51EED0F5F008C9F33 /* RealtimeWORLDPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimeWORLDPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ACDC0D81EED0F5F008C9F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3ACDC0DA1EED0F5F008C9F33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ACDC0D81EED0F5F008C9F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RealtimeWORLDPlayer/AppDelegate.swift; sourceTree = "<group>"; };
+		3ACDC0DA1EED0F5F008C9F33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = RealtimeWORLDPlayer/ViewController.swift; sourceTree = "<group>"; };
 		3ACDC0DD1EED0F5F008C9F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3ACDC0DF1EED0F5F008C9F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ACDC0DF1EED0F5F008C9F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RealtimeWORLDPlayer/Assets.xcassets; sourceTree = "<group>"; };
 		3ACDC0E21EED0F5F008C9F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3ACDC0E41EED0F5F008C9F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3ACDC0EB1EED0F89008C9F33 /* RealtimeWORLDPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealtimeWORLDPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
-		3ACDC0EC1EED0F89008C9F33 /* audioio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audioio.cpp; sourceTree = "<group>"; };
-		3ACDC0ED1EED0F89008C9F33 /* cheaptrick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cheaptrick.cpp; sourceTree = "<group>"; };
-		3ACDC0EE1EED0F89008C9F33 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
-		3ACDC0EF1EED0F89008C9F33 /* ctest_c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ctest_c.c; sourceTree = "<group>"; };
-		3ACDC0F01EED0F89008C9F33 /* d4c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = d4c.cpp; sourceTree = "<group>"; };
-		3ACDC0F11EED0F89008C9F33 /* dio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dio.cpp; sourceTree = "<group>"; };
-		3ACDC0F21EED0F89008C9F33 /* fft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft.cpp; sourceTree = "<group>"; };
-		3ACDC0F31EED0F89008C9F33 /* header */ = {isa = PBXFileReference; lastKnownFileType = folder; path = header; sourceTree = "<group>"; };
-		3ACDC0F41EED0F89008C9F33 /* matlabfunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matlabfunctions.cpp; sourceTree = "<group>"; };
-		3ACDC0F51EED0F89008C9F33 /* stonemask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stonemask.cpp; sourceTree = "<group>"; };
-		3ACDC0F61EED0F89008C9F33 /* synthesis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = synthesis.cpp; sourceTree = "<group>"; };
-		3ACDC0F71EED0F89008C9F33 /* synthesisrealtime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = synthesisrealtime.cpp; sourceTree = "<group>"; };
-		3ACDC0F81EED0F89008C9F33 /* world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = world.cpp; sourceTree = "<group>"; };
-		3ACDC1061EED0FAF008C9F33 /* waves */ = {isa = PBXFileReference; lastKnownFileType = folder; path = waves; sourceTree = "<group>"; };
-		3ACDC1081EED0FDF008C9F33 /* AnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
-		3ACDC1091EED0FDF008C9F33 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
-		3ACDC10A1EED0FDF008C9F33 /* WORLDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WORLDManager.swift; sourceTree = "<group>"; };
-		3ACDC10B1EED0FDF008C9F33 /* ConstantMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantMember.swift; sourceTree = "<group>"; };
-		3ACDC10C1EED0FDF008C9F33 /* BufferManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferManager.swift; sourceTree = "<group>"; };
-		3ACDC10D1EED0FDF008C9F33 /* RealtimePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimePlayer.swift; sourceTree = "<group>"; };
+		3ACDC0E41EED0F5F008C9F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = RealtimeWORLDPlayer/Info.plist; sourceTree = "<group>"; };
+		3ACDC0EB1EED0F89008C9F33 /* RealtimeWORLDPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RealtimeWORLDPlayer-Bridging-Header.h"; path = "RealtimeWORLDPlayer/world/RealtimeWORLDPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		3ACDC1081EED0FDF008C9F33 /* AnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationManager.swift; path = RealtimeWORLDPlayer/AnimationManager.swift; sourceTree = "<group>"; };
+		3ACDC1091EED0FDF008C9F33 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioPlayerManager.swift; path = RealtimeWORLDPlayer/AudioPlayerManager.swift; sourceTree = "<group>"; };
+		3ACDC10A1EED0FDF008C9F33 /* WORLDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WORLDManager.swift; path = RealtimeWORLDPlayer/WORLDManager.swift; sourceTree = "<group>"; };
+		3ACDC10B1EED0FDF008C9F33 /* ConstantMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConstantMember.swift; path = RealtimeWORLDPlayer/ConstantMember.swift; sourceTree = "<group>"; };
+		3ACDC10C1EED0FDF008C9F33 /* BufferManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BufferManager.swift; path = RealtimeWORLDPlayer/BufferManager.swift; sourceTree = "<group>"; };
+		3ACDC10D1EED0FDF008C9F33 /* RealtimePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RealtimePlayer.swift; path = RealtimeWORLDPlayer/RealtimePlayer.swift; sourceTree = "<group>"; };
+		3AFE16D81EED16B7003FF4F6 /* audioio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = audioio.cpp; path = RealtimeWORLDPlayer/world/audioio.cpp; sourceTree = "<group>"; };
+		3AFE16D91EED16B7003FF4F6 /* cheaptrick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cheaptrick.cpp; path = RealtimeWORLDPlayer/world/cheaptrick.cpp; sourceTree = "<group>"; };
+		3AFE16DA1EED16B7003FF4F6 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = common.cpp; path = RealtimeWORLDPlayer/world/common.cpp; sourceTree = "<group>"; };
+		3AFE16DB1EED16B7003FF4F6 /* ctest_c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ctest_c.c; path = RealtimeWORLDPlayer/world/ctest_c.c; sourceTree = "<group>"; };
+		3AFE16DC1EED16B7003FF4F6 /* d4c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = d4c.cpp; path = RealtimeWORLDPlayer/world/d4c.cpp; sourceTree = "<group>"; };
+		3AFE16DD1EED16B7003FF4F6 /* dio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dio.cpp; path = RealtimeWORLDPlayer/world/dio.cpp; sourceTree = "<group>"; };
+		3AFE16DE1EED16B7003FF4F6 /* fft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fft.cpp; path = RealtimeWORLDPlayer/world/fft.cpp; sourceTree = "<group>"; };
+		3AFE16DF1EED16B7003FF4F6 /* header */ = {isa = PBXFileReference; lastKnownFileType = folder; name = header; path = RealtimeWORLDPlayer/world/header; sourceTree = "<group>"; };
+		3AFE16E01EED16B7003FF4F6 /* matlabfunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = matlabfunctions.cpp; path = RealtimeWORLDPlayer/world/matlabfunctions.cpp; sourceTree = "<group>"; };
+		3AFE16E11EED16B7003FF4F6 /* stonemask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stonemask.cpp; path = RealtimeWORLDPlayer/world/stonemask.cpp; sourceTree = "<group>"; };
+		3AFE16E21EED16B7003FF4F6 /* synthesis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synthesis.cpp; path = RealtimeWORLDPlayer/world/synthesis.cpp; sourceTree = "<group>"; };
+		3AFE16E31EED16B7003FF4F6 /* synthesisrealtime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synthesisrealtime.cpp; path = RealtimeWORLDPlayer/world/synthesisrealtime.cpp; sourceTree = "<group>"; };
+		3AFE16E41EED16B7003FF4F6 /* world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = world.cpp; path = RealtimeWORLDPlayer/world/world.cpp; sourceTree = "<group>"; };
+		3AFE16F21EED16CE003FF4F6 /* waves */ = {isa = PBXFileReference; lastKnownFileType = folder; name = waves; path = RealtimeWORLDPlayer/waves; sourceTree = "<group>"; };
+		3AFE16F61EED1752003FF4F6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFE16F71EED1752003FF4F6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +82,9 @@
 		3ACDC0CC1EED0F5F008C9F33 = {
 			isa = PBXGroup;
 			children = (
-				3ACDC1061EED0FAF008C9F33 /* waves */,
-				3ACDC0EA1EED0F73008C9F33 /* world */,
-				3ACDC0D71EED0F5F008C9F33 /* RealtimeWORLDPlayer */,
+				3AFE16F41EED1705003FF4F6 /* RealtimeWORLDPlayer */,
 				3ACDC0D61EED0F5F008C9F33 /* Products */,
+				3AFE16F51EED1752003FF4F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +96,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3ACDC0D71EED0F5F008C9F33 /* RealtimeWORLDPlayer */ = {
+		3ACDC0EA1EED0F73008C9F33 /* world */ = {
 			isa = PBXGroup;
 			children = (
+				3AFE16D81EED16B7003FF4F6 /* audioio.cpp */,
+				3AFE16D91EED16B7003FF4F6 /* cheaptrick.cpp */,
+				3AFE16DA1EED16B7003FF4F6 /* common.cpp */,
+				3AFE16DB1EED16B7003FF4F6 /* ctest_c.c */,
+				3AFE16DC1EED16B7003FF4F6 /* d4c.cpp */,
+				3AFE16DD1EED16B7003FF4F6 /* dio.cpp */,
+				3AFE16DE1EED16B7003FF4F6 /* fft.cpp */,
+				3AFE16DF1EED16B7003FF4F6 /* header */,
+				3AFE16E01EED16B7003FF4F6 /* matlabfunctions.cpp */,
+				3AFE16E11EED16B7003FF4F6 /* stonemask.cpp */,
+				3AFE16E21EED16B7003FF4F6 /* synthesis.cpp */,
+				3AFE16E31EED16B7003FF4F6 /* synthesisrealtime.cpp */,
+				3AFE16E41EED16B7003FF4F6 /* world.cpp */,
+				3ACDC0EB1EED0F89008C9F33 /* RealtimeWORLDPlayer-Bridging-Header.h */,
+			);
+			name = world;
+			sourceTree = "<group>";
+		};
+		3AFE16F41EED1705003FF4F6 /* RealtimeWORLDPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3ACDC0EA1EED0F73008C9F33 /* world */,
+				3AFE16F21EED16CE003FF4F6 /* waves */,
+				3ACDC0DC1EED0F5F008C9F33 /* Main.storyboard */,
+				3ACDC0DF1EED0F5F008C9F33 /* Assets.xcassets */,
+				3ACDC0E11EED0F5F008C9F33 /* LaunchScreen.storyboard */,
+				3ACDC0E41EED0F5F008C9F33 /* Info.plist */,
 				3ACDC1081EED0FDF008C9F33 /* AnimationManager.swift */,
 				3ACDC1091EED0FDF008C9F33 /* AudioPlayerManager.swift */,
 				3ACDC10A1EED0FDF008C9F33 /* WORLDManager.swift */,
@@ -105,33 +134,16 @@
 				3ACDC10D1EED0FDF008C9F33 /* RealtimePlayer.swift */,
 				3ACDC0D81EED0F5F008C9F33 /* AppDelegate.swift */,
 				3ACDC0DA1EED0F5F008C9F33 /* ViewController.swift */,
-				3ACDC0DC1EED0F5F008C9F33 /* Main.storyboard */,
-				3ACDC0DF1EED0F5F008C9F33 /* Assets.xcassets */,
-				3ACDC0E11EED0F5F008C9F33 /* LaunchScreen.storyboard */,
-				3ACDC0E41EED0F5F008C9F33 /* Info.plist */,
 			);
-			path = RealtimeWORLDPlayer;
+			name = RealtimeWORLDPlayer;
 			sourceTree = "<group>";
 		};
-		3ACDC0EA1EED0F73008C9F33 /* world */ = {
+		3AFE16F51EED1752003FF4F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3ACDC0EC1EED0F89008C9F33 /* audioio.cpp */,
-				3ACDC0ED1EED0F89008C9F33 /* cheaptrick.cpp */,
-				3ACDC0EE1EED0F89008C9F33 /* common.cpp */,
-				3ACDC0EF1EED0F89008C9F33 /* ctest_c.c */,
-				3ACDC0F01EED0F89008C9F33 /* d4c.cpp */,
-				3ACDC0F11EED0F89008C9F33 /* dio.cpp */,
-				3ACDC0F21EED0F89008C9F33 /* fft.cpp */,
-				3ACDC0F31EED0F89008C9F33 /* header */,
-				3ACDC0F41EED0F89008C9F33 /* matlabfunctions.cpp */,
-				3ACDC0F51EED0F89008C9F33 /* stonemask.cpp */,
-				3ACDC0F61EED0F89008C9F33 /* synthesis.cpp */,
-				3ACDC0F71EED0F89008C9F33 /* synthesisrealtime.cpp */,
-				3ACDC0F81EED0F89008C9F33 /* world.cpp */,
-				3ACDC0EB1EED0F89008C9F33 /* RealtimeWORLDPlayer-Bridging-Header.h */,
+				3AFE16F61EED1752003FF4F6 /* AVFoundation.framework */,
 			);
-			name = world;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,11 +207,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFE16EC1EED16B7003FF4F6 /* header in Resources */,
 				3ACDC0E31EED0F5F008C9F33 /* LaunchScreen.storyboard in Resources */,
+				3AFE16F31EED16CE003FF4F6 /* waves in Resources */,
 				3ACDC0E01EED0F5F008C9F33 /* Assets.xcassets in Resources */,
-				3ACDC1071EED0FAF008C9F33 /* waves in Resources */,
 				3ACDC0DE1EED0F5F008C9F33 /* Main.storyboard in Resources */,
-				3ACDC1001EED0F89008C9F33 /* header in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,26 +222,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ACDC1031EED0F89008C9F33 /* synthesis.cpp in Sources */,
-				3ACDC1011EED0F89008C9F33 /* matlabfunctions.cpp in Sources */,
+				3AFE16EF1EED16B7003FF4F6 /* synthesis.cpp in Sources */,
+				3AFE16EA1EED16B7003FF4F6 /* dio.cpp in Sources */,
 				3ACDC0DB1EED0F5F008C9F33 /* ViewController.swift in Sources */,
+				3AFE16E51EED16B7003FF4F6 /* audioio.cpp in Sources */,
+				3AFE16F01EED16B7003FF4F6 /* synthesisrealtime.cpp in Sources */,
 				3ACDC1131EED0FDF008C9F33 /* RealtimePlayer.swift in Sources */,
-				3ACDC0FA1EED0F89008C9F33 /* cheaptrick.cpp in Sources */,
-				3ACDC0F91EED0F89008C9F33 /* audioio.cpp in Sources */,
+				3AFE16E81EED16B7003FF4F6 /* ctest_c.c in Sources */,
 				3ACDC1111EED0FDF008C9F33 /* ConstantMember.swift in Sources */,
-				3ACDC1021EED0F89008C9F33 /* stonemask.cpp in Sources */,
-				3ACDC0FF1EED0F89008C9F33 /* fft.cpp in Sources */,
-				3ACDC0FC1EED0F89008C9F33 /* ctest_c.c in Sources */,
-				3ACDC0FE1EED0F89008C9F33 /* dio.cpp in Sources */,
+				3AFE16E71EED16B7003FF4F6 /* common.cpp in Sources */,
+				3AFE16E91EED16B7003FF4F6 /* d4c.cpp in Sources */,
 				3ACDC10E1EED0FDF008C9F33 /* AnimationManager.swift in Sources */,
-				3ACDC0FD1EED0F89008C9F33 /* d4c.cpp in Sources */,
+				3AFE16E61EED16B7003FF4F6 /* cheaptrick.cpp in Sources */,
 				3ACDC1101EED0FDF008C9F33 /* WORLDManager.swift in Sources */,
-				3ACDC1041EED0F89008C9F33 /* synthesisrealtime.cpp in Sources */,
+				3AFE16EE1EED16B7003FF4F6 /* stonemask.cpp in Sources */,
+				3AFE16F11EED16B7003FF4F6 /* world.cpp in Sources */,
 				3ACDC0D91EED0F5F008C9F33 /* AppDelegate.swift in Sources */,
+				3AFE16EB1EED16B7003FF4F6 /* fft.cpp in Sources */,
 				3ACDC10F1EED0FDF008C9F33 /* AudioPlayerManager.swift in Sources */,
-				3ACDC1051EED0F89008C9F33 /* world.cpp in Sources */,
+				3AFE16ED1EED16B7003FF4F6 /* matlabfunctions.cpp in Sources */,
 				3ACDC1121EED0FDF008C9F33 /* BufferManager.swift in Sources */,
-				3ACDC0FB1EED0F89008C9F33 /* common.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +254,7 @@
 				3ACDC0DD1EED0F5F008C9F33 /* Base */,
 			);
 			name = Main.storyboard;
+			path = RealtimeWORLDPlayer;
 			sourceTree = "<group>";
 		};
 		3ACDC0E11EED0F5F008C9F33 /* LaunchScreen.storyboard */ = {
@@ -250,6 +263,7 @@
 				3ACDC0E21EED0F5F008C9F33 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = RealtimeWORLDPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -361,7 +375,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MoriseLab.RealtimeWORLDPlayer.RealtimeWORLDPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RealtimeWORLDPlayer-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealtimeWORLDPlayer/world/RealtimeWORLDPlayer-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -378,7 +392,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MoriseLab.RealtimeWORLDPlayer.RealtimeWORLDPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RealtimeWORLDPlayer-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealtimeWORLDPlayer/world/RealtimeWORLDPlayer-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -402,6 +416,7 @@
 				3ACDC0E91EED0F5F008C9F33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
