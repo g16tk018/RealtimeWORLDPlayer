@@ -46,8 +46,6 @@ class ViewController: UIViewController {
             let Location = touch.location(in:self.view)
             let ViewLocation = CGPoint(x:Location.x,y:self.view.frame.height - Location.y)
             realtimePlayer?.syntheIndex = getSyntheIndexFrom(location: ViewLocation)
-            realtimePlayer?.playBuffer()
-            realtimePlayer?.initializeTimer()
         }
     }
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {

@@ -22,7 +22,7 @@ class RealtimePlayer{
         self.worldManager = worldManager
         self.audioPlayerManager = AudioPlayerManager(audioFormat:audioFormat)
         bufferManager = BufferManager(buffersCnt:5,bufferSize:ConstantMember.BufferSize,audioFormat: audioFormat)
-        //initializeTimer()
+        initializeTimer()
     }
     
     func initializeTimer(){
@@ -44,15 +44,10 @@ class RealtimePlayer{
         }
     }
     @objc func setBufferTimer(tm: Timer){
-        if syntheIndex != 0{
-            audioPlayerManager?.playBuffer(buffer: (bufferManager?.getCanWriteBuffer())!)
-            canSynthe = true
-            //次のバッファの設定
-            bufferManager?.setNextBuffer()
-        }else{
-            bufferPlayTimer.invalidate()
-            syntheTimer.invalidate()
-        }
+        audioPlayerManager?.playBuffer(buffer: (bufferManager?.getCanWriteBuffer())!)
+        canSynthe = true
+        //次のバッファの設定
+        bufferManager?.setNextBuffer()
     }
     func playBuffer(){
         audioPlayerManager?.playBuffer(buffer: (bufferManager?.getPlayBuffer())!)
